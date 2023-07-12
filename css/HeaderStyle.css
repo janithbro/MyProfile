@@ -21,6 +21,20 @@
     --font-neon-text-shadow:0 0 10px rgda(18,247,255,0.6)
 }
 
+::-webkit-scrollbar{
+    height: 0;
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--secon-bg-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--hover-color);
+    border-radius: 5rem;
+}
+
 body{
     font-family: "Poppins",sans-serif;
     background-color: var(--bg-color);

@@ -58,3 +58,6 @@ circles.forEach(elem=>{
     }
 })
 
+//mix it up portfolio section
+var mixer = mixitup('.portfolio-gallery');
+

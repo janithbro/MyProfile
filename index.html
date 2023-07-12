@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/ServicesStyle.css">
     <link rel="stylesheet" href="css/SkillsStyle.css">
     <link rel="stylesheet" href="css/PortfolioStyle.css">
+    <link rel="stylesheet" href="css/ContactStyle.css">
+    <link rel="stylesheet" href="css/FooterStyle.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -295,16 +297,16 @@
 
         <div class="container">
             <div class="fillter-buttons">
-                <button class="btn">All</button>
-                <button class="btn">Product</button>
-                <button class="btn">Interacting</button>
-                <button class="btn">Web App</button>
+                <button class="btn" data-filter="all">All</button>
+                <button class="btn" data-filter=".assignment">Assignment</button>
+                <button class="btn" data-filter=".project">Project</button>
+                <button class="btn" data-filter=".web">Web App</button>
             </div>
         </div>
 
         <div class="portfolio-gallery">
 
-            <div class="port-box">
+            <div class="port-box mix project">
                 <div class="port-image">
                     <img src="img/1.jpg" alt="">
                 </div>
@@ -319,7 +321,7 @@
                 </div>
             </div>
 
-            <div class="port-box">
+            <div class="port-box mix project">
                 <div class="port-image">
                     <img src="img/1.jpg" alt="">
                 </div>
@@ -335,7 +337,7 @@
                 </div>
             </div>
 
-            <div class="port-box">
+            <div class="port-box mix assignment">
                 <div class="port-image">
                     <img src="img/1.jpg" alt="">
                 </div>
@@ -351,7 +353,7 @@
                 </div>
             </div>
 
-            <div class="port-box">
+            <div class="port-box mix assignment">
                 <div class="port-image">
                     <img src="img/1.jpg" alt="">
                 </div>
@@ -367,7 +369,7 @@
                 </div>
             </div>
 
-            <div class="port-box">
+            <div class="port-box mix web">
                 <div class="port-image">
                     <img src="img/1.jpg" alt="">
                 </div>
@@ -387,6 +389,38 @@
 
     </section>
 
+    <!-- \\\\\\\\\\\\\\\\\\   contact section     \\\\\\\\\\\\\\\\\  -->
+
+    <section id="contact" class="contact">
+
+        <div class="main-text">
+            <span>ask me question</span>
+            <h2>Contact Me</h2>
+        </div>
+
+        <form action="#">
+            <input type="text" placeholder="Yuor Name">
+            <input type="text" placeholder="Yuor E-mail">
+            <input type="text" placeholder="Yuor Address">
+            <input type="number" placeholder="Phone Number">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage"></textarea>
+            <div class="btn-box formBtn">
+                <button type="submit" class="btn">Send Massage</button>
+            </div>
+        </form>
+
+
+    </section>
+
+
+    <!-- \\\\\\\\\\\\\\\\\\   footer section     \\\\\\\\\\\\\\\\\  -->
+
+    <footer>
+        <p>Copyright &copy; 2023 by ParsCoder || All Right Reservd.</p>
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
+
+    <script src="js/mixitup.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
